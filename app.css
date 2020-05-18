@@ -1,0 +1,75 @@
+body{
+    /*background: #34ebe8;*/
+    font-family: "Nunito", sans-serif;
+    /*background-image: url(https://images.unsplash.com/photo-1517167685284-96a27681ad75?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=934&q=80);*/
+    background: url("https://images.unsplash.com/photo-1520176501380-9a174bf7c783?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=934&q=80") center center / cover no-repeat;
+    
+}
+
+.blurb h2 {
+    font-family:"Monoton", cursive;
+    color: #fcd303;
+    font-weight: 100;
+    font-size: 2.5rem;
+}
+
+.blurb p {
+    color: #fcd303;
+    font-weight: 100;
+    font-size: 1.125rem; 
+    line-height: 2;
+}
+
+.content{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+#mainNavbar {
+    font-size: 1.5rem;
+    font-weight: 100;
+
+}
+
+#mainNavbar .nav-link {
+    color: white;
+}
+
+#mainNavbar .nav-link:hover {
+    color: #fcd303;
+}
+
+
+#mainNavbar .navbar-brand {
+    color: #fcd303;
+    font-size: 1.5rem;
+
+}
+
+#headingGroup span {
+    color: #EA1C2C;
+}
+
+#headingGroup h1{
+    font-family:"Monoton", cursive;
+    font-weight: 100;
+    font-size: 4rem;
+    color: #fcd303; 
+}
+
+.navbar.scrolled {
+    background: #0948b5;
+    transition: background 500ms;
+}
+
+@media(max-width: 1200px) {
+    #headingGroup h1{
+        font-weight: 100;
+        font-size: 3rem;
+    }
+}
+
+.navbar-toggler {
+    background: #fcd303; 
+
+}
